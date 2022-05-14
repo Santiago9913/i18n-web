@@ -18,6 +18,7 @@ const Job = (props) => {
           weekday="long"
         />
       </td>
+      <td>{props.offer.views}</td>
     </tr>
   );
 };
