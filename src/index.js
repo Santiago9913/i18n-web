@@ -5,7 +5,7 @@ import { IntlProvider } from "react-intl";
 import JobsList from "./components/jobslist";
 
 ReactDOM.render(
-  <IntlProvider locale="en">
+  <IntlProvider locale="es">
     <JobsList />
   </IntlProvider>,
   document.getElementById("root")
